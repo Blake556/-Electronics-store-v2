@@ -334,7 +334,7 @@ h2 {
 
 
 
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 400px ) {
   
         /* Header */
     h1 {
@@ -345,7 +345,7 @@ h2 {
         background: rgba(0,0,0,0.92);
         color: white;
         padding: 3%;
-        padding-left: 28px;
+        padding-left: 25px;
     }
 
 
@@ -396,16 +396,8 @@ h2 {
     }
 
     h2 {
-        text-align: center;  
-    }
-
-    h3 {
-        font-size: 15px;
-    }
-
-    .cart-img {
-        max-height: 70%;
-        max-width: 70%;
+        text-align: center; 
+        
     }
 
     .cart-items {
@@ -414,42 +406,64 @@ h2 {
         
     }
 
-    .cart-item {
-        width: 125px;
+    h3 {
+        font-size: 12px;
+    
     }
 
     .cart-image-container {
         flex-basis: 100%;
         max-width: 30%;
+        text-align: center;
     }
 
     .cart-image-container img {
-        max-width: 150px;
+        max-width: 100px;
         max-height: 75px;
         width: auto;
         height: auto;
-        float: none;
+        
+        /* float: none; */
     }
+
+    .cart-item {
+        width: 115px;
+        
+    }
+
+  
 
     .cart-row {
         display: flex;
         justify-content: space-between;
         margin: auto;
         width: 100%;
-        height: 150px;
-        padding: 2% 0% 2% 0%;
+        height: 125px;
+        margin: 5% 0% 10% 0%;
+        border-bottom: 1px solid black;
+    }
+
+    .price-remove-container {
+       
+        
+        width: 75px;
     }
 
     .item-quantity-selector {
-        height: 16px;
+        font-size: 12px;
+        margin-right: 1%;
+        /* height: 16px; */
         border: none;
     }
 
-
+    .item-price {
+        position: relative;
+        float: right;
+    }
 
     p.item-remove-btn {
-        padding: 4%;
-        font-size: 15px;
+        padding: 3%;
+        font-size: 12px;
         position: relative;
         top: 20px;
         float: right;
